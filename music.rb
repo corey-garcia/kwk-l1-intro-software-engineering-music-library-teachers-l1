@@ -8,7 +8,7 @@ hash["Bonnie"] = 1925
 # This method should accept a hash as an argument.
 def list_artists(hash)
   hash.each do |artist|
-    puts "#{artist}"
+    puts artist
   end 
 end 
 
